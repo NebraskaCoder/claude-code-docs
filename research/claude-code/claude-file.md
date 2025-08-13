@@ -659,12 +659,12 @@ packages/
 
 ## Common Patterns
 ### API Error Handling
-```typescript
+``typescript
 throw new BadRequestException({
   message: 'Validation failed',
   errors: validationErrors
 });
-```
+``
 
 ### Component Structure
 ``typescript
