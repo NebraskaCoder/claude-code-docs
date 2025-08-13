@@ -94,9 +94,7 @@ This can be multiple paragraphs and should clearly define:
 
 ### Available Tools
 
-These are all of the available tools in each category. You may mix and matc=
-h as needed, but ensure you only include the minimal necessary tools for th=
-e task.
+These are all of the available tools in each category. You may mix and match as needed, but ensure you only include the minimal necessary tools for the task.
 
 - **Read-only tools**: Glob, Grep, LS, Read, WebFetch, TodoWrite, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool
 - **Edit tools**: Edit, MultiEdit, Write, NotebookEdit
@@ -124,62 +122,8 @@ e task.
 
 #### Note about MCP tools
 
-MCP tools are only available if the agent has access to the MCP resources. =
-Some examples of MCP tools (for GitHub Enterprise MCP and Playwright Browse=
-r MCP) include:
-mcp**github_enterprise**add*issue_comment, mcp**github_enterprise**add_pull=
-\_request_review_comment_to_pending_review, mcp**github_enterprise**assign_c=
-opilot_to_issue, mcp**github_enterprise**cancel_workflow_run, mcp**github_e=
-nterprise**create_and_submit_pull_request_review, mcp**github_enterprise**c=
-reate_branch, mcp**github_enterprise**create_issue, mcp**github_enterprise*=
-*create_or_update_file, mcp**github_enterprise**create_pending_pull_request=
-\_review, mcp**github_enterprise**create_pull_request, mcp**github_enterpris=
-e**create_repository, mcp**github_enterprise**delete_file, mcp**github_ente=
-rprise**delete_pending_pull_request_review, mcp**github_enterprise\*\*delete*=
-workflow*run_logs, mcp**github_enterprise**dismiss_notification, mcp**githu=
-b_enterprise**download_workflow_run_artifact, mcp**github_enterprise**fork*=
-repository, mcp**github_enterprise**get*code_scanning_alert, mcp**github_en=
-terprise**get_commit, mcp**github_enterprise**get_file_contents, mcp**githu=
-b_enterprise**get_issue, mcp**github_enterprise**get_issue_comments, mcp**g=
-ithub_enterprise**get_job_logs, mcp**github_enterprise**get_me, mcp**github=
-\_enterprise**get_notification_details, mcp**github_enterprise**get_pull_req=
-uest, mcp**github_enterprise**get_pull_request_comments, mcp**github_enterp=
-rise**get_pull_request_diff, mcp**github_enterprise**get_pull_request_files=
-, mcp**github_enterprise**get_pull_request_reviews, mcp**github_enterprise*=
-*get_pull_request_status, mcp**github_enterprise**get_secret_scanning_alert=
-, mcp**github_enterprise**get_tag, mcp**github_enterprise**get_workflow_run=
-, mcp**github_enterprise**get_workflow_run_logs, mcp**github_enterprise**ge=
-t_workflow_run_usage, mcp**github_enterprise**list_branches, mcp**github_en=
-terprise**list_code_scanning_alerts, mcp**github_enterprise**list_commits, =
-mcp**github_enterprise**list_issues, mcp**github_enterprise**list_notificat=
-ions, mcp**github_enterprise**list_pull_requests, mcp**github_enterprise**l=
-ist_secret_scanning_alerts, mcp**github_enterprise**list_tags, mcp**github*=
-enterprise**list_workflow_jobs, mcp**github_enterprise**list_workflow_run_a=
-rtifacts, mcp**github_enterprise**list_workflow_runs, mcp**github_enterpris=
-e**list_workflows, mcp**github_enterprise**manage_notification_subscription=
-, mcp**github_enterprise**manage_repository_notification_subscription, mcp*=
-*github_enterprise**mark_all_notifications_read, mcp**github_enterprise**me=
-rge_pull_request, mcp**github_enterprise**push_files, mcp**github_enterpris=
-e**request_copilot_review, mcp**github_enterprise**rerun_failed_jobs, mcp**=
-github_enterprise**rerun_workflow_run, mcp**github_enterprise**run_workflow=
-, mcp**github_enterprise**search_code, mcp**github_enterprise**search_issue=
-s, mcp**github_enterprise**search_orgs, mcp**github_enterprise**search_pull=
-\_requests, mcp**github_enterprise**search_repositories, mcp**github_enterpr=
-ise**search_users, mcp**github_enterprise**submit_pending_pull_request_revi=
-ew, mcp**github_enterprise**update_issue, mcp**github_enterprise**update_pu=
-ll_request, mcp**github_enterprise**update_pull_request_branch, mcp**playwr=
-ight**browser_close, mcp**playwright**browser_resize, mcp**playwright**brow=
-ser_console_messages, mcp**playwright**browser_handle_dialog, mcp**playwrig=
-ht**browser_evaluate, mcp**playwright**browser_file_upload, mcp**playwright=
-**browser_install, mcp**playwright**browser_press_key, mcp**playwright**bro=
-wser_type, mcp**playwright**browser_navigate, mcp**playwright**browser_navi=
-gate_back, mcp**playwright**browser_navigate_forward, mcp**playwright**brow=
-ser_network_requests, mcp**playwright**browser_take_screenshot, mcp**playwr=
-ight**browser_snapshot, mcp**playwright**browser_click, mcp**playwright**br=
-owser_drag, mcp**playwright**browser_hover, mcp**playwright**browser_select=
-\_option, mcp**playwright**browser_tab_list, mcp**playwright**browser_tab_ne=
-w, mcp**playwright**browser_tab_select, mcp**playwright**browser_tab_close,=
-mcp**playwright**browser_wait_for
+MCP tools are only available if the agent has access to the MCP resources. Some examples of MCP tools (for GitHub Enterprise MCP and Playwright Browser MCP) include:
+mcp**github_enterprise**add_issue_comment, mcp**github_enterprise**add_pull_request_review_comment_to_pending_review, mcp**github_enterprise**assign_copilot_to_issue, mcp**github_enterprise**cancel_workflow_run, mcp**github_enterprise**create_and_submit_pull_request_review, mcp**github_enterprise**create_branch, mcp**github_enterprise**create_issue, mcp**github_enterprise**create_or_update_file, mcp**github_enterprise**create_pending_pull_request_review, mcp**github_enterprise**create_pull_request, mcp**github_enterprise**create_repository, mcp**github_enterprise**delete_file, mcp**github_enterprise**delete_pending_pull_request_review, mcp**github_enterprise**delete_workflow_run_logs, mcp**github_enterprise**dismiss_notification, mcp**github_enterprise**download_workflow_run_artifact, mcp**github_enterprise**fork_repository, mcp**github_enterprise**get_code_scanning_alert, mcp**github_enterprise**get_commit, mcp**github_enterprise**get_file_contents, mcp**github_enterprise**get_issue, mcp**github_enterprise**get_issue_comments, mcp**github_enterprise**get_job_logs, mcp**github_enterprise**get_me, mcp**github_enterprise**get_notification_details, mcp**github_enterprise**get_pull_request, mcp**github_enterprise**get_pull_request_comments, mcp**github_enterprise**get_pull_request_diff, mcp**github_enterprise**get_pull_request_files, mcp**github_enterprise**get_pull_request_reviews, mcp**github_enterprise**get_pull_request_status, mcp**github_enterprise**get_secret_scanning_alert, mcp**github_enterprise**get_tag, mcp**github_enterprise**get_workflow_run, mcp**github_enterprise**get_workflow_run_logs, mcp**github_enterprise**get_workflow_run_usage, mcp**github_enterprise**list_branches, mcp**github_enterprise**list_code_scanning_alerts, mcp**github_enterprise**list_commits, mcp**github_enterprise**list_issues, mcp**github_enterprise**list_notifications, mcp**github_enterprise**list_pull_requests, mcp**github_enterprise**list_secret_scanning_alerts, mcp**github_enterprise**list_tags, mcp**github_enterprise**list_workflow_jobs, mcp**github_enterprise**list_workflow_run_artifacts, mcp**github_enterprise**list_workflow_runs, mcp**github_enterprise**list_workflows, mcp**github_enterprise**manage_notification_subscription, mcp**github_enterprise**manage_repository_notification_subscription, mcp**github_enterprise**mark_all_notifications_read, mcp**github_enterprise**merge_pull_request, mcp**github_enterprise**push_files, mcp**github_enterprise**request_copilot_review, mcp**github_enterprise**rerun_failed_jobs, mcp**github_enterprise**rerun_workflow_run, mcp**github_enterprise**run_workflow, mcp**github_enterprise**search_code, mcp**github_enterprise**search_issues, mcp**github_enterprise**search_orgs, mcp**github_enterprise**search_pull_requests, mcp**github_enterprise**search_repositories, mcp**github_enterprise**search_users, mcp**github_enterprise**submit_pending_pull_request_review, mcp**github_enterprise**update_issue, mcp**github_enterprise**update_pull_request, mcp**github_enterprise**update_pull_request_branch, mcp**playwright**browser_close, mcp**playwright**browser_resize, mcp**playwright**browser_console_messages, mcp**playwright**browser_handle_dialog, mcp**playwright**browser_evaluate, mcp**playwright**browser_file_upload, mcp**playwright**browser_install, mcp**playwright**browser_press_key, mcp**playwright**browser_type, mcp**playwright**browser_navigate, mcp**playwright**browser_navigate_back, mcp**playwright**browser_navigate_forward, mcp**playwright**browser_network_requests, mcp**playwright**browser_take_screenshot, mcp**playwright**browser_snapshot, mcp**playwright**browser_click, mcp**playwright**browser_drag, mcp**playwright**browser_hover, mcp**playwright**browser_select_option, mcp**playwright**browser_tab_list, mcp**playwright**browser_tab_new, mcp**playwright**browser_tab_select, mcp**playwright**browser_tab_close, mcp**playwright**browser_wait_for
 
 ### Model Selection
 
