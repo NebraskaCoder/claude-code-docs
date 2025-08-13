@@ -584,7 +584,6 @@ You are a technical writer. Create clear, concise documentation including:
 - **Infrastructure**: AWS, Docker
 
 ## Project Structure
-```
 apps/
 ├── web/          # Next.js frontend
 ├── api/          # NestJS backend
@@ -594,7 +593,6 @@ packages/
 ├── shared/       # Shared types and utilities
 ├── ui/           # Component library
 └── database/     # Database schemas
-```
 
 ## Commands
 **IMPORTANT: Always run these before marking tasks complete**
