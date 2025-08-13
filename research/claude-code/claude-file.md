@@ -50,12 +50,10 @@ CLAUDE.md is a special Markdown file that Claude Code automatically ingests to g
 - Styling: Tailwind CSS 3.4
 
 ## Project Structure
-```
 src/
 ├── app/          # Next.js App Router pages
 ├── components/   # Reusable React components
 └── lib/          # Core utilities and API clients
-```
 
 ## Commands
 - `npm run dev`: Start development server
