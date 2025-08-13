@@ -574,6 +574,8 @@ You are a technical writer. Create clear, concise documentation including:
 
 ### Complete CLAUDE.md Example
 
+Due to formatting of this document, replace the double backtick that is followed by typescript with tripple backtick (markdown code block) and the corresponding double backtick.
+
 ```markdown
 # Project Name: E-Commerce Platform
 
@@ -665,13 +667,13 @@ throw new BadRequestException({
 ```
 
 ### Component Structure
-```typescript
+``typescript
 export const Component: FC<Props> = memo(({ prop }) => {
   // hooks
   // handlers
   // render
 });
-```
+``
 
 ## Notes for Claude
 - Check existing patterns first
