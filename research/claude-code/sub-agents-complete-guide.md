@@ -98,18 +98,15 @@ These are all of the available tools in each category. You may mix and matc=
 h as needed, but ensure you only include the minimal necessary tools for th=
 e task.
 
-- **Read-only tools**: Glob, Grep, LS, Read, WebFetch, TodoWrite, WebSearch=
-  , ListMcpResourcesTool, ReadMcpResourceTool
+- **Read-only tools**: Glob, Grep, LS, Read, WebFetch, TodoWrite, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool
 - **Edit tools**: Edit, MultiEdit, Write, NotebookEdit
 - **Execution tools**: Bash
 - **MCP tools**: (available tools depend on available MCP resources)
 
 #### Tools Overview
 
-| Tool | Description | Per=
-mission Required |
-| ------------ | ---------------------------------------------------- | ---=
----------------- |
+| Tool | Description | Permission Required |
+| ------------ | ---------------------------------------------------- | ------------------- |
 | Bash | Executes shell commands in your environment | Yes=
 |
 | Edit | Makes targeted edits to specific files | Yes=
